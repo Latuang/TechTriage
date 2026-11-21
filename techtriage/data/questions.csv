@@ -1,0 +1,13 @@
+question,category,article_id
+My laptop won't join wireless internet,Wi-Fi,demo_wifi_1
+I cannot sign into wifi on my computer,Wi-Fi,demo_wifi_1
+The dorm network says connected but nothing loads,Wi-Fi,demo_wifi_2
+My laptop connected but has no internet,Wi-Fi,demo_wifi_2
+How do I connect my Xbox console,Hardware setup,demo_device_1
+My game console won't get online,Hardware setup,demo_device_1
+How can I set up my Alexa speaker,Hardware setup,demo_device_2
+My smart speaker will not connect,Hardware setup,demo_device_2
+Need help adding a printer,Hardware setup,demo_device_3
+How do I connect a printer,Hardware setup,demo_device_3
+Can you repair my broken phone screen,Outside support,demo_other_1
+Can you help with an unrelated off campus account,Outside support,demo_other_1
