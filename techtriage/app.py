@@ -12,7 +12,7 @@ load_dotenv()
 st.set_page_config(page_title="TechTriage (demo)", page_icon="🛠️")
 st.title("🛠️ TechTriage")
 st.caption("CS221 Impact Track • synthetic demonstration data, not official Stanford IT guidance")
-st.warning("DEMO ONLY: Articles are fictional examples. Do not use these instructions for real support cases.")
+st.warning("DEMO: Do not use these instructions for real support cases yet.")
 st.info("Do not enter student names, SUNet IDs, device serial numbers, emails, or ticket text.")
 
 @st.cache_resource
