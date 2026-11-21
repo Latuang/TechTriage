@@ -17,7 +17,7 @@ Try: `My Xbox connects to wifi but nothing loads`.
 
 ## What the app uses
 
-- `classifier.py`: bag-of-words and a linear softmax classifier trained by gradient descent (CS221 Lecture 3).
+- `classifier.py`: bag-of-words and a linear softmax classifier trained by gradient descent.
 - `retrieval.py`: BM25 keyword search, optional Sentence-BERT search, and hybrid search.
 - `answer.py`: checks for weak matches and drafts a cited answer if an API key is set. Without a key, it shows source excerpts.
 
