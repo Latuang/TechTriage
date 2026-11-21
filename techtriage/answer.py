@@ -4,9 +4,8 @@ import re
 
 
 def is_weak(results, query, min_bm25=0.45):
-    # Demo-only lexical safeguard, NOT a validated production threshold.
-    # Retrieve BM25 scores even when testing embeddings to avoid comparing
-    # cosine scores and BM25 using an invalid common threshold.
+    # Demo-only lexical safeguard, NOT a validated production threshold. Retrieve BM25 scores even when testing embeddings to avoid comparing
+    # And cosine scores and BM25 using an invalid common threshold.
     return not results or max(r["bm25_score"] for r in results) < min_bm25
 
 
@@ -22,7 +21,6 @@ def safe_question(question):
 def answer_question(question, results):
     if is_weak(results, question):
         return "Escalate to a support lead: the matching documents are too weak.", False
-    # Demo has no verified official links; display source excerpts by default.
     if not os.getenv("OPENAI_API_KEY"):
         lines = ["Demo source excerpts (not an AI-generated fix):"]
         for i, article in enumerate(results, start=1):
