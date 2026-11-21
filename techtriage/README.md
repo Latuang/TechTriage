@@ -2,8 +2,6 @@
 
 CS221 Impact Track prototype for helping tech support staff find troubleshooting guidance. Enter a question, predict its category, find related documents, and view source excerpts or an optional AI-generated response.
 
-**Demo only:** The included articles and questions are made up. They are not official Stanford IT advice, and no real staff testing has been done with this starter.
-
 ## Run locally
 
 ```bash
