@@ -40,4 +40,4 @@ Replace the demo data with approved sources, validate the escalation threshold a
 - Reimers and Gurevych (2019), [Sentence-BERT](https://aclanthology.org/D19-1410/)
 - Lewis et al. (2020), [Retrieval-Augmented Generation](https://papers.nips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html)
 
-Starter code was created with AI assistance. Document your own use according to the accommodation and course arrangements agreed with your CA.
+Starter code was created with AI assistance.
