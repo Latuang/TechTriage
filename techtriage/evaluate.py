@@ -1,4 +1,4 @@
-"""Tiny smoke-test evaluation on synthetic examples, not a valid impact study.
+"""
 Run: python evaluate.py
 """
 import csv
